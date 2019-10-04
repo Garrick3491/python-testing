@@ -1,0 +1,22 @@
+name: python-playground
+recipe: lamp
+config:
+  webroot: public
+  xdebug: true
+  php: 7.3
+services:
+  node:
+    type: node:11.4
+  python:
+    type: python:3.7
+  redis:
+    type: redis:5
+tooling:
+  npm:
+    service: node
+  node:
+    service: node
+  webpack:
+    service: node
+  yarn:
+    service: node
