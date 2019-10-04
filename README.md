@@ -1,4 +1,4 @@
 - Step 1: Start Lando
 - Step 2: run 'lando ssh -s python'
 - Step 3: run 'pip install -U pytest'
-- Step 4: run '/var/www/.local/bin/bin/pytest python/test-math.py python/test.py'
+- Step 4: run '/var/www/.local/bin/bin/pytest python/*.py'
